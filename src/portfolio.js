@@ -7,27 +7,27 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Danielle's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Computer Science student at UT Austin passionate about iOS development, AI, and using tech to uplift underrepresented communities.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Danielle Nyame Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://daniellenyame.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Danielle Nyame",
+  logo_name: "DanielleNyame ",
+  nickname: "daninyame1",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "UT Austin CS student building inclusive tech, innovative apps, and a future in iOS development.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/17PRiiKhoJMBNGcGzSV2CccuW5TNOCLru/view?usp=sharing",
+  portfolio_repository: "https://github.com/dnyame1/danielle-portfolio",
+  githubProfile: "https://github.com/dnyame1",
 };
 
 const socialMediaLinks = [
@@ -42,77 +42,78 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/dnyame1",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/danielle-nyame/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    
+    //name: "YouTube",
+   // link: "https://youtube.com/c/DevSense19",
+    //fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+   // backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:daniellenyame@utexas.edu",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+   // name: "X-Twitter",
+   // link: "https://twitter.com/ashutosh_1919",
+    //fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+   // backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    link: "https://www.facebook.com/danielle.nysme/",
+  fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    //name: "Instagram",
+  //  link: "https://www.instagram.com/layman_brother/",
+   // fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+   // backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Technical Skills",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developed an AI app using C++ and HTML for social evaluation and racial awareness",
+        "⚡ Experience building frontend UI and participating in research-based development",
+        "⚡ Passionate about app development, iOS, and inclusive technology",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "C++",
+          fontAwesomeClassname: "logos:c-plusplus",
           style: {
-            backgroundColor: "transparent",
+            backgroundColor: "#00599C",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
             backgroundColor: "white",
-            color: "#D00000",
+            color: "#E34F26",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: ""GitHub",
+          fontAwesomeClassname: "fa-brands fa-github",
           style: {
             backgroundColor: "transparent",
           },
@@ -126,56 +127,54 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Public Speaking",
+          imageSrc: "fas fa-microphone",
         },
       ],
     },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Professional Skills",
+      fileName: "DesignImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Advanced public speaking and communication",
+        "⚡ Strong time management and organizational leadership",
+        "⚡ Collaboration and leadership in both STEM and community spaces",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Leadership",
+          fontAwesomeClassname: "fas fa-user-tie",
           style: {
-            color: "#E34F26",
+            color: "#1abc9c",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Teamwork",
+          fontAwesomeClassname: "fas fa-users",
           style: {
-            color: "#1572B6",
+            color: "#3498db",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Writing",
+          fontAwesomeClassname: "fas fa-pen-nib",
           style: {
-            color: "#CC6699",
+            color: "#e67e22",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Bilingual (English/Spanish)",
+          fontAwesomeClassname: "fas fa-language",
           style: {
             backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#9b59b6",
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
+       //
           },
         },
+    /*
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
@@ -324,6 +323,7 @@ const skills = {
 };
 
 // Education Page
+          /*
 const competitiveSites = {
   competitiveSites: [
     {
@@ -376,38 +376,39 @@ const competitiveSites = {
     },
   ],
 };
-
+*/
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "The University of Texas at Austin",
+      subtitle: "Bachelor of Science in Computer Science",
+      logo_path: "ut_logo.png",
+      alt_name: "UT Austin",
+      duration: "Aug 2025 – Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Full-ride Impact & Dijkstra Scholar majoring in Computer Science",
+         "⚡ Accepted into UT Austin's Exclusive Freshman Research Inititave",
+        "⚡ Relevant Coursework: Introduction to Programming, Calculus I",
+        "⚡ Passionate about iOS development, equity in tech, and research innovation",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.cs.utexas.edu/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "St. Philip's College",
+      subtitle: "Associate of Arts in Multidisciplinary Studies",
+      logo_path: "stphilip_logo.png",
+      alt_name: "St. Philip's College",
+      duration: "Aug 2021 – May 2025",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+         "⚡ Graduated with a 4.0 GPA while dual enrolled in high school",
+      "⚡ Took college-level courses in English, History, Government, and more",
+      "⚡ Built foundational skills in analysis, research, and communication",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.alamo.edu/spc/",
     },
   ],
 };
-
+/*
 const certifications = {
   certifications: [
     {
@@ -520,13 +521,13 @@ const certifications = {
     },
   ],
 };
-
+*/
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, and Internship",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I’ve gained diverse work experience across customer service, pharmacy, and healthcare industries—balancing fast-paced environments with precision, empathy, and strong communication. My roles have sharpened my time management, teamwork, and problem-solving skills while supporting both people and processes.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,28 +535,29 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "E-Store Shopper",
+          company: "H-E-B",
+          company_url: "https://www.heb.com/",
+          logo_path: "heb_logo.png",
+          duration: "May 2024 – Present",
+          location: "Seguin, TX",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
-          color: "#000000",
+            "Top Shopper within 6 months. Streamlined online grocery orders with speed, accuracy, and attention to detail.",
+          color: "#FF0000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Pharmacy Intern",
+          company: "Core Veterinary Compounding Pharmacy",
+         // company_url: "https://legatohealthtech.com/",
+         // logo_path: "legato_logo.png",
+          duration: "Nov 2023",
+          location: "Seguin, TX",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
+            "Assisted in compounding medications tailored to patient needs. Gained hands-on experience in formulation and dosage customization.",
+          color: "#00a86b",
         },
         {
+          /*
           title: "Android and ML Developer",
           company: "Muffito Incorporation",
           company_url: "https://www.linkedin.com/company/muffito-inc/about/",
@@ -619,54 +621,56 @@ const experience = {
       ],
     },
     {
+    */
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Texas State Leader",
+           company: "Society of Black Students in Healthcare",
+         // company_url: "https://about.google/",
+         // logo_path: "google_logo.png",
+          duration: "July 2023 – Present",
+          location: "Dallas, TX",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+            "Led a statewide team focused on health equity awareness. Co-authored a children's book on sickle cell, organized a community field day, and launched campaigns reaching 13K+ across Instagram and TikTok.",
+          color: "#e67e22",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Chair – Superintendent Student Advisory Team",
+          company: "Seguin Independent School District",
+          company_url: "https://www.seguin.k12.tx.us",
+          logo_path: "seguinisd_logo.png",
+          duration: "Aug 2021 – May 2025",
+          location: "Seguin, TX",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
+            "Only student on the district's 5-year strategic board. Co-created the district mission symbol (recognized by the Holdsworth Center), and led the inaugural Matador Family Bash with 400+ attendees.",
+          color: "#3498db",
         },
         {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+          title: "Public Relations Officer",
+          company: "National Honor Society",
+          //company_url: "https://www.mozilla.org/",
+          logo_path: "nhs_logo.png",
+          duration: "Jan 2024 – May 2025",
+          location: "Seguin, TX",
           description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
+            "Managed NHS Instagram to increase engagement and communication. Led fundraising efforts that raised $1.5K through event concessions at the Matador Family Bash.",
+          color: "#2c3e50",
         },
         {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+          title: "Class President (4 Years)",
+          company: "Student Government",
+          //company_url:
+           // "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
+         // logo_path: "dsc_logo.png",
+          duration: "Aug 2021 – May 2025",
+          location: "Seguin, TX",
           description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
+            "Served as Class President all four years. Organized Decision Day, Celebration of Excellence, and raised over $12K for prom. Represented Guadalupe County at Texas Girls State as a Senate Councilwoman.",
+          color: "#f39c12",
         },
         {
+          /*
           title: "Developer Program Member",
           company: "Github",
           company_url: "https://github.com/",
@@ -681,15 +685,46 @@ const experience = {
     },
   ],
 };
-
+*/
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  image: "ai_app.png",
+ projectName: "Me vs. Me – Inclusive Cognitive Awareness AI App",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
-};
+    "Invented an AI-based app using C++ and HTML to explore racial cognitive awareness and promote inclusive evaluation. Partnered with South Texas Blood & Tissue Center and dedicated 150+ hours to design, testing, and iteration.",
+  footerLink: [
+      {
+        name: "Science Fair Awards",
+        url: "https://drive.google.com/file/d/17PRiiKhoJMBNGcGzSV2CccuW5TNOCLru/view?usp=sharing", // Optional – or replace with a real achievement link
+      },
+     {
+  image: "socials_preview.png", // Combine screenshots from each page into a grid-style image
+  projectName: "Instagram Branding & Page Management",
+  projectDesc:
+    "Managed four Instagram pages, including National Honor Society, Class of 2025 Page, College Decision Page, and the Seguin Tennis Team. Created branded graphics, announcement posts, and recap content to keep student engagement high across all platforms.",
+  footerLink: [
+    {
+      name: "NHS Page",
+      url: "https://www.instagram.com/seguinnationalhonorsociety",
+    },
+    {
+      name: "Class of 2025",
+      url: "https://www.instagram.com/seguinclassof2025",
+    },
+    {
+      name: "College Decisions",
+      url: "https://www.instagram.com/seguinhsdecisions",
+    },
+    {
+      name: "Tennis Team",
+      url: "https://www.instagram.com/seguinhstennis",
+    },
+  ],
+},
 
+ // avatar_image_path: "projects_image.svg",
+};
+/*
 const publicationsHeader = {
   title: "Publications",
   description: "Some of my published Articles, Blogs and Research.",
@@ -721,7 +756,7 @@ const publications = {
     },
   ],
 };
-
+*/
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -730,6 +765,7 @@ const contactPageData = {
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
+  /*
   blogSection: {
     title: "Blogs",
     subtitle:
@@ -737,20 +773,21 @@ const contactPageData = {
     link: "https://blogs.ashutoshhathidara.com/",
     avatar_image_path: "blogs_image.svg",
   },
+  */
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
+   // subtitle: "1417 Redbridge Dr, Seguin, Texas, 78155",
+    locality: "Austin",
     country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    region: "Texas",
+   // postalCode: "78155",
+  //  streetAddress: "Redbridge Dr",
+  //  avatar_image_path: "address_image.svg",
+ //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
   },
-  phoneSection: {
-    title: "",
-    subtitle: "",
+ // phoneSection: {
+  //  title: "Phone",
+   // subtitle: "(830) 556-8033",
   },
 };
 
@@ -760,12 +797,12 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
+  //competitiveSites,
   degrees,
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
+  //publicationsHeader,
+  //publications,
   contactPageData,
 };
